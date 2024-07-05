@@ -6,7 +6,7 @@ from datetime import datetime
 
 DATE = str(datetime.now())
 URL = 'https://www.montevideo.com.uy/'
-#URL_IMG = 'https://imagenes.montevideo.com.uy/'
+
 
 response = requests.get(URL)
 html_content = response.content
@@ -14,9 +14,6 @@ html_content = response.content
 soup = BeautifulSoup(html_content, "html.parser")
 
 articles = soup.find_all("article", class_='noticia')
-#titles = soup.find_all("h2", class_="title")
-#headers = soup.find_all("div", class_="kicker bold")
-
 
 class News:
     def __init__(self, header, title, author, img, date):
@@ -42,15 +39,13 @@ for article in articles:
     header_elem = article.find("div", class_="kicker bold")
     title_elem = article.find("h2", class_="title")
     img_container = article.find('picture')
-    #print(img_container)
+
 
     
     if img_container:
         img_elem = img_container.find('img', class_='lazyload')
-        print(img_elem)
         if img_elem:
             img_url = img_elem.attrs['data-src']
-            print(img_url)
 
     if header_elem and title_elem:
         header = header_elem.text.strip()
