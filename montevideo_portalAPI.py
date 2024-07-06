@@ -16,12 +16,14 @@ soup = BeautifulSoup(html_content, "html.parser")
 articles = soup.find_all("article", class_='noticia')
 
 class News:
-    def __init__(self, header, title, author, img, web, date):
+    def __init__(self, header, title, author, img, web, text, category, date):
         self.header = header
         self.title = title
         self.author = author
         self.img = img
         self.web = web
+        self.text = text
+        self.category = category
         self.date = date
         
     def to_json(self):
@@ -31,6 +33,8 @@ class News:
             "autor": self.author,
             "img": self.img,
             "web": self.web,
+            "texto": self.text,
+            "categorias": self.category,
             "fecha": self.date
         }
 
@@ -40,6 +44,23 @@ for article in articles:
     header_elem = article.find("div", class_="kicker bold")
     title_elem = article.find("h2", class_="title")
     img_container = article.find('picture')
+    new_attrs = article.find('a')
+
+    if new_attrs:
+        second_URL = new_attrs['href']
+        second_response = requests.get(second_URL)
+        html_URL2 = second_response.content
+        soup2 = BeautifulSoup(html_URL2, "html.parser")
+        category_container = soup2.find("ul", class_="categorias hidden-xs")
+        if category_container:
+            category_element = category_container.find_all("a")
+            category_list = []
+            for category in category_element:
+                category_text = category.text.strip()
+                if category_text != "Inicio":  # Excluir "Inicio"
+                    category_list.append(category_text)
+              
+         
     
     if img_container:
         img_elem = img_container.find('img', class_='lazyload')
@@ -50,7 +71,7 @@ for article in articles:
         header = header_elem.text.strip()
         title = title_elem.text.strip()
         
-        new = News(header=header, title=title, author="", img=img_url, web="Montevideo Portal", date=DATE)
+        new = News(header=header, title=title, author="", img=img_url, web="Montevideo Portal", text="", category=category_list, date=DATE)
         news.append(new)
 
 for n in news:
@@ -59,10 +80,12 @@ for n in news:
     print("Título:", n.title)
     print('Link imagen:', n.img)
     print('Web extraido:', n.web)
+    print('texto:', n.text)
+    print('Categoría:', n.category)
     print("Fecha extraido:", n.date)
     print('------------------------')
 
-with open('news.json', 'w') as f:
-    json.dump([n.to_json() for n in news], f, ensure_ascii=False, indent=4)
-    print('JSON realizado con exito')
+# with open('news.json', 'w') as f:
+#     json.dump([n.to_json() for n in news], f, ensure_ascii=False, indent=4)
+#     print('JSON realizado con exito')
 
