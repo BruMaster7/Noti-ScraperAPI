@@ -16,10 +16,9 @@ soup = BeautifulSoup(html_content, "html.parser")
 articles = soup.find_all("article", class_='noticia')
 
 class News:
-    def __init__(self, header, title, author, img, web, text, category, date):
+    def __init__(self, header, title, img, web, text, category, date):
         self.header = header
         self.title = title
-        self.author = author
         self.img = img
         self.web = web
         self.text = text
@@ -30,7 +29,6 @@ class News:
         return {
             "header": self.header,
             "titulo": self.title,
-            "autor": self.author,
             "img": self.img,
             "web": self.web,
             "texto": self.text,
@@ -71,21 +69,21 @@ for article in articles:
         header = header_elem.text.strip()
         title = title_elem.text.strip()
         
-        new = News(header=header, title=title, author="", img=img_url, web="Montevideo Portal", text="", category=category_list, date=DATE)
+        new = News(header=header, title=title, img=img_url, web="Montevideo Portal", text="", category=category_list, date=DATE)
         news.append(new)
 
-for n in news:
-    print('------------------------')
-    print("Encabezado:", n.header)
-    print("Título:", n.title)
-    print('Link imagen:', n.img)
-    print('Web extraido:', n.web)
-    print('texto:', n.text)
-    print('Categoría:', n.category)
-    print("Fecha extraido:", n.date)
-    print('------------------------')
+# for n in news:
+#     print('------------------------')
+#     print("Encabezado:", n.header)
+#     print("Título:", n.title)
+#     print('Link imagen:', n.img)
+#     print('Web extraido:', n.web)
+#     print('texto:', n.text)
+#     print('Categoría:', n.category)
+#     print("Fecha extraido:", n.date)
+#     print('------------------------')
 
-# with open('news.json', 'w') as f:
-#     json.dump([n.to_json() for n in news], f, ensure_ascii=False, indent=4)
-#     print('JSON realizado con exito')
+with open('news.json', 'w') as f:
+    json.dump([n.to_json() for n in news], f, ensure_ascii=False, indent=4)
+    print('JSON realizado con exito')
 
