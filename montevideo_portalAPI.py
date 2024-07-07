@@ -72,17 +72,6 @@ for article in articles:
         new = News(header=header, title=title, img=img_url, web="Montevideo Portal", text="", category=category_list, date=DATE)
         news.append(new)
 
-# for n in news:
-#     print('------------------------')
-#     print("Encabezado:", n.header)
-#     print("Título:", n.title)
-#     print('Link imagen:', n.img)
-#     print('Web extraido:', n.web)
-#     print('texto:', n.text)
-#     print('Categoría:', n.category)
-#     print("Fecha extraido:", n.date)
-#     print('------------------------')
-
 with open('news.json', 'w') as f:
     json.dump([n.to_json() for n in news], f, ensure_ascii=False, indent=4)
     print('JSON realizado con exito')
