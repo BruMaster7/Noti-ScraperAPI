@@ -1,75 +1,74 @@
 [
     {
-        "header": "Quién dijo qué",
-        "titulo": "“Coalición”, “partido” y “todo”: un análisis de los discursos de Ojeda en día del triunfo",
-        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202407/_W640_H364_80/886835.jpg",
-        "web": "Montevideo Portal",
-        "texto": "",
-        "categorias": [
-            "Noticias",
-            "Política",
-            "Elecciones 2024"
-        ],
-        "fecha": "2024-07-06 17:57:20.581319"
-    },
-    {
-        "header": "Vamo’ arriba la celeste",
-        "titulo": "Copa América: Uruguay enfrenta a Brasil desde las 22:00 en Las Vegas por un lugar en semis",
-        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202310/_W640_H364_80/859338.jpg",
+        "header": "Va y viene",
+        "titulo": "Copa América: El intercambio entre Rodrygo y Valverde previo al choque con Colombia",
+        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202406/_W640_H364_80/885918.jfif",
         "web": "Montevideo Portal",
         "texto": "",
         "categorias": [
             "Deportes",
             "Copa América 2024"
         ],
-        "fecha": "2024-07-06 17:57:20.581319"
+        "fecha": "2024-07-10 18:18:38.869388"
     },
     {
-        "header": "Sabor a poco",
-        "titulo": "Intermedio: Peñarol y Deportivo Maldonado empataron 1-1 en el Campeón del Siglo",
-        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202407/_W640_H364_80/887145.jfif",
-        "web": "Montevideo Portal",
-        "texto": "",
-        "categorias": [
-            "Deportes",
-            "Fútbol uruguayo"
-        ],
-        "fecha": "2024-07-06 17:57:20.581319"
-    },
-    {
-        "header": "Excepciones",
-        "titulo": "Astesiano: “Conmigo no valió” la frase “duro con las ideas, suave con las personas”",
-        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202407/_W640_H364_80/887133.jpg",
-        "web": "Montevideo Portal",
-        "texto": "",
-        "categorias": [
-            "Noticias",
-            "Política"
-        ],
-        "fecha": "2024-07-06 17:57:20.581319"
-    },
-    {
-        "header": "El crack de la semana",
-        "titulo": "Ganador del 5 de Oro en Soriano donará parte de su premio al Hospital de Mercedes",
-        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202407/_W640_H364_80/887136.jpg",
+        "header": "Pero ¿será posible?",
+        "titulo": "“Temperaturas extremas”: Inumet extiende hasta este viernes el aviso por ola de frío",
+        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202407/_W640_H364_80/887168.jpg",
         "web": "Montevideo Portal",
         "texto": "",
         "categorias": [
             "Noticias",
             "Locales"
         ],
-        "fecha": "2024-07-06 17:57:20.581319"
+        "fecha": "2024-07-10 18:18:38.869388"
     },
     {
-        "header": "Complejo",
-        "titulo": "Presidente del SMU sobre Casmu: “No podemos convertir la situación en un botín electoral”",
-        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202210/_W640_H364_80/821619.jpg",
+        "header": "Delfino héroe del barrio",
+        "titulo": "La llamada de Lacalle al niño que le pidió una plaza en Tranqueras: “Gracias a tu reclamo”",
+        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202407/_W640_H364_80/887606.jpg",
+        "web": "Montevideo Portal",
+        "texto": "",
+        "categorias": [
+            "Noticias",
+            "Locales"
+        ],
+        "fecha": "2024-07-10 18:18:38.869388"
+    },
+    {
+        "header": "Palpita el corazón",
+        "titulo": "Copa América: El emocionante video motivacional que publicó AUF previo a la semifinal",
+        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202107/_W640_H364_80/767116.jpg",
+        "web": "Montevideo Portal",
+        "texto": "",
+        "categorias": [
+            "Deportes",
+            "Copa América 2024"
+        ],
+        "fecha": "2024-07-10 18:18:38.869388"
+    },
+    {
+        "header": "Calentito",
+        "titulo": "Sindicato del Pan denuncia civil y penalmente a Ojeda por dichos en defensa de Friopan",
+        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202406/_W640_H364_80/886548.jpeg",
+        "web": "Montevideo Portal",
+        "texto": "",
+        "categorias": [
+            "Noticias",
+            "Judiciales"
+        ],
+        "fecha": "2024-07-10 18:18:38.869388"
+    },
+    {
+        "header": "Ningún perdona tutti",
+        "titulo": "Reestructura y perdón de deudas “es excepcional por aumento de la morosidad en pandemia”",
+        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202407/_W640_H364_80/887591.jpg",
         "web": "Montevideo Portal",
         "texto": "",
         "categorias": [
             "En Perspectiva"
         ],
-        "fecha": "2024-07-06 17:57:20.581319"
+        "fecha": "2024-07-10 18:18:38.869388"
     },
     {
         "header": "El negocio en busca de sentido",
@@ -81,7 +80,7 @@
             "Deportes",
             "Fútbol Internacional"
         ],
-        "fecha": "2024-07-06 17:57:20.581319"
+        "fecha": "2024-07-10 18:18:38.869388"
     },
     {
         "header": "Dentro del margen de error",
@@ -93,7 +92,7 @@
             "Deportes",
             "Fútbol Internacional"
         ],
-        "fecha": "2024-07-06 17:57:20.581319"
+        "fecha": "2024-07-10 18:18:38.869388"
     },
     {
         "header": "El Columneador",
@@ -105,7 +104,7 @@
             "Deportes",
             "Fútbol Internacional"
         ],
-        "fecha": "2024-07-06 17:57:20.581319"
+        "fecha": "2024-07-10 18:18:38.869388"
     },
     {
         "header": "Obsesiones y otros cuentos",
@@ -117,213 +116,211 @@
             "Deportes",
             "Fútbol Internacional"
         ],
-        "fecha": "2024-07-06 17:57:20.581319"
+        "fecha": "2024-07-10 18:18:38.869388"
     },
     {
-        "header": "Lo que está sonando #37",
-        "titulo": "Los alfileres de Vivienne, ménage à trois y versos filosos: nuestra playlist de la semana",
-        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202407/_W640_H364_80/887099.jpg",
-        "web": "Montevideo Portal",
-        "texto": "",
-        "categorias": [
-            "Beat",
-            "Música"
-        ],
-        "fecha": "2024-07-06 17:57:20.581319"
-    },
-    {
-        "header": "Do It Yourself",
-        "titulo": "La raíz uruguaya detrás de la historia de los alfileres punk de Vivienne Westwood",
-        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202407/_W640_H364_80/887084.jpg",
-        "web": "Montevideo Portal",
-        "texto": "",
-        "categorias": [
-            "Beat",
-            "Historias"
-        ],
-        "fecha": "2024-07-06 17:57:20.581319"
-    },
-    {
-        "header": "Los libros y sus autores",
-        "titulo": "Virginia Anderson: \"La manera de encontrar una voz y un estilo es escribiendo\"",
-        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202407/_W640_H364_80/886933.jpg",
+        "header": "Cuando acechan los fantasmas",
+        "titulo": "Tres escritoras argentinas que delinean el costado macabro de nuestra vida cotidiana",
+        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202407/_W640_H364_80/887620.jpeg",
         "web": "Montevideo Portal",
         "texto": "",
         "categorias": [
             "Beat",
             "Literatura"
         ],
-        "fecha": "2024-07-06 17:57:20.581319"
+        "fecha": "2024-07-10 18:18:38.869388"
     },
     {
-        "header": "El pavimento y las diagonales",
-        "titulo": "107 Faunos, el recorrido de una banda platense que no deja de alimentar su hambre indie",
-        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202407/_W640_H364_80/886836.jpg",
+        "header": "Libertad sonora",
+        "titulo": "Maxi Nathan: \"La improvisación es la excusa principal, siempre está ahí y es el motor\"",
+        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202407/_W640_H364_80/887476.jpg",
         "web": "Montevideo Portal",
         "texto": "",
         "categorias": [
             "Beat",
             "Música"
         ],
-        "fecha": "2024-07-06 17:57:20.581319"
+        "fecha": "2024-07-10 18:18:38.869388"
     },
     {
-        "header": "De pago en pago",
-        "titulo": "Lista por lista: cuáles fueron las 10 papeletas más votadas en las elecciones internas",
-        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202407/_W640_H364_80/887040.jpg",
+        "header": "Montevideo sigue agonizando",
+        "titulo": "Los 40 años de Traidores: callejeando desde la Plaza Varela hasta los festejos del Sodre",
+        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202407/_W640_H364_80/887478.jpg",
+        "web": "Montevideo Portal",
+        "texto": "",
+        "categorias": [
+            "Beat",
+            "Música"
+        ],
+        "fecha": "2024-07-10 18:18:38.869388"
+    },
+    {
+        "header": "Camino paralelo",
+        "titulo": "Sakatumba, la banda argentina que usa el eclecticismo como amuleto para ganar adeptos",
+        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202407/_W640_H364_80/887436.JPG",
+        "web": "Montevideo Portal",
+        "texto": "",
+        "categorias": [
+            "Beat",
+            "Música"
+        ],
+        "fecha": "2024-07-10 18:18:38.869388"
+    },
+    {
+        "header": "Simple y compuesto",
+        "titulo": "Bancos y financieras perdonarán deudas de $ 5.000 y no cobrarán interés ni multas en otras",
+        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202312/_W640_H364_80/864893.jpg",
         "web": "Montevideo Portal",
         "texto": "",
         "categorias": [
             "Noticias",
-            "Política",
-            "Elecciones 2024"
+            "Economía"
         ],
-        "fecha": "2024-07-06 17:57:20.581319"
+        "fecha": "2024-07-10 18:18:38.869388"
     },
     {
-        "header": "Grave",
-        "titulo": "La muerte de David tras un traslado fallido: una polémica más sobre el Hospital del Cerro",
-        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202311/_W640_H364_80/861242.jpg",
+        "header": "Maldita",
+        "titulo": "La casa que se incendió en Pocitos es la misma donde una hija mató a su madre en 2021",
+        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202407/_W640_H364_80/887549.jpeg",
         "web": "Montevideo Portal",
         "texto": "",
         "categorias": [
             "Noticias",
-            "Judiciales"
+            "Policiales"
         ],
-        "fecha": "2024-07-06 17:57:20.581319"
+        "fecha": "2024-07-10 18:18:38.869388"
     },
     {
-        "header": "Poeta de época",
-        "titulo": "Josema comparó a Uruguay con un león: “Mata al búfalo con la misma fuerza que a la liebre”",
-        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202406/_W640_H364_80/885947.jpg",
-        "web": "Montevideo Portal",
-        "texto": "",
-        "categorias": [
-            "Deportes",
-            "Selección"
-        ],
-        "fecha": "2024-07-06 17:57:20.581319"
-    },
-    {
-        "header": "Sudó aceite",
-        "titulo": "Eurocopa: Inglaterra dejó por el camino a Suiza por penales y se metió en semifinales",
-        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202407/_W640_H364_80/887137.jpg",
-        "web": "Montevideo Portal",
-        "texto": "",
-        "categorias": [
-            "Deportes",
-            "Fútbol Internacional"
-        ],
-        "fecha": "2024-07-06 17:57:20.581319"
-    },
-    {
-        "header": "Ahora, candidato a la Presidencia",
-        "titulo": "Salle llamó a masones “peones” de B’nai B’rith, y su director criticó “acusaciones vacías”",
-        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202407/_W640_H364_80/887104.JPG",
+        "header": "Domingo, parrilla y fútbol",
+        "titulo": "Carnicerías de barrio harán descuento del 40% para bife de vacío por el Día del Padre",
+        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202407/_W640_H364_80/887614.jpg",
         "web": "Montevideo Portal",
         "texto": "",
         "categorias": [
             "Noticias",
-            "Política"
+            "Economía"
         ],
-        "fecha": "2024-07-06 17:57:20.581319"
+        "fecha": "2024-07-10 18:18:38.869388"
     },
     {
-        "header": "Se dice de mí",
-        "titulo": "“Partido Nacional”, “vamos” y “voto”: las palabras que más usó Delgado en noche de interna",
-        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202407/_W640_H364_80/887020.JPG",
+        "header": "Esto sigue",
+        "titulo": "Ciclón provocará un “refuerzo” del frío, según MetSul: ¿cómo y cuándo afectará a Uruguay?",
+        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202407/_W640_H364_80/887556.jpg",
         "web": "Montevideo Portal",
         "texto": "",
         "categorias": [
             "Noticias",
-            "Política",
-            "Elecciones 2024"
+            "Locales"
         ],
-        "fecha": "2024-07-06 17:57:20.581319"
+        "fecha": "2024-07-10 18:18:38.869388"
     },
     {
-        "header": "Más oficinas para menos oficinas",
-        "titulo": "Milei crea el Ministerio de Desregulación y Transformación del Estado; puso a Sturzenegger",
-        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202407/_W640_H364_80/887125.jpg",
-        "web": "Montevideo Portal",
-        "texto": "",
-        "categorias": [
-            "Noticias",
-            "Internacionales"
-        ],
-        "fecha": "2024-07-06 17:57:20.581319"
-    },
-    {
-        "header": "¿Al pa’ qué?",
-        "titulo": "Ecuador cuenta con el primer programa de mejoramiento genético de alpacas",
-        "img": "https://imagenes.montevideo.com.uy/imgnoticias/201803/_W640_H364_80/647958.jpg",
-        "web": "Montevideo Portal",
-        "texto": "",
-        "categorias": [
-            "Ciencia y Tecnología",
-            "Medioambiente"
-        ],
-        "fecha": "2024-07-06 17:57:20.581319"
-    },
-    {
-        "header": "Por la diestra",
-        "titulo": "Kast aseguró que los gobiernos de derecha en Latinoamérica “están recuperando sus países”",
-        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202111/_W640_H364_80/782409.jpg",
-        "web": "Montevideo Portal",
-        "texto": "",
-        "categorias": [
-            "Noticias",
-            "Internacionales"
-        ],
-        "fecha": "2024-07-06 17:57:20.581319"
-    },
-    {
-        "header": "Es de ellos",
-        "titulo": "Intermedio: Cerro Largo, que tuvo una semana complicada, venció 1-0 a Liverpool en Melo",
-        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202311/_W640_H364_80/861305.jpg",
-        "web": "Montevideo Portal",
-        "texto": "",
-        "categorias": [
-            "Deportes",
-            "Fútbol uruguayo"
-        ],
-        "fecha": "2024-07-06 17:57:20.581319"
-    },
-    {
-        "header": "Triste",
-        "titulo": "Falleció futbolista egipcio que en marzo había sufrido un paro cardíaco en pleno partido",
-        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202403/_W640_H364_80/874650.jpg",
+        "header": "¡Fuerza!",
+        "titulo": "Coco Basile, histórico DT argentino con pasaje por Nacional, fue internado por un ACV",
+        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202403/_W640_H364_80/875897.jpg",
         "web": "Montevideo Portal",
         "texto": "",
         "categorias": [
             "Deportes",
             "Fútbol Internacional"
         ],
-        "fecha": "2024-07-06 17:57:20.581319"
+        "fecha": "2024-07-10 18:18:38.869388"
     },
     {
-        "header": "Están celosos",
-        "titulo": "Insólito: ciclista fue multado por besar a su pareja durante una etapa del Tour de Francia",
-        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202407/_W640_H364_80/887128.jpg",
+        "header": "Toca abrigarse",
+        "titulo": "¿Habrá veranillo? Meteorólogo de Inumet adelantó cuándo terminará el “frío crudo”",
+        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202407/_W640_H364_80/887533.jpg",
+        "web": "Montevideo Portal",
+        "texto": "",
+        "categorias": [
+            "Noticias",
+            "Locales"
+        ],
+        "fecha": "2024-07-10 18:18:38.869388"
+    },
+    {
+        "header": "Gracias a dios Momo",
+        "titulo": "Obras en el Teatro de Verano: las imágenes de cómo avanza la reforma en la platea superior",
+        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202407/_W640_H364_80/887567.jpg",
+        "web": "Montevideo Portal",
+        "texto": "",
+        "categorias": [
+            "Noticias",
+            "Locales"
+        ],
+        "fecha": "2024-07-10 18:18:38.869388"
+    },
+    {
+        "header": "Secuelas",
+        "titulo": "Macron dice que “nadie ganó” las legislativas y llama a formar una coalición “sólida”",
+        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202307/_W640_H364_80/848453.jpg",
+        "web": "Montevideo Portal",
+        "texto": "",
+        "categorias": [
+            "Noticias",
+            "Internacionales"
+        ],
+        "fecha": "2024-07-10 18:18:38.869388"
+    },
+    {
+        "header": "El aire a full pa",
+        "titulo": "UTE tuvo en la noche del lunes un nuevo pico histórico de energía requerida",
+        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202407/_W640_H364_80/887593.jpg",
+        "web": "Montevideo Portal",
+        "texto": "",
+        "categorias": [
+            "Noticias",
+            "Economía"
+        ],
+        "fecha": "2024-07-10 18:18:38.869388"
+    },
+    {
+        "header": "Gana en primera vuelta",
+        "titulo": "Tranvía de Montevideo a Ciudad de la Costa: ocho de cada 10 personas apoyan el proyecto",
+        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202311/_W640_H364_80/862598.jpg",
+        "web": "Montevideo Portal",
+        "texto": "",
+        "categorias": [
+            "Noticias",
+            "Locales"
+        ],
+        "fecha": "2024-07-10 18:18:38.869388"
+    },
+    {
+        "header": "A la altura",
+        "titulo": "Rugby: Uruguay disputó histórico Test Match en el Charrúa contra Francia y fue derrota",
+        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202407/_W640_H364_80/887599.jpg",
         "web": "Montevideo Portal",
         "texto": "",
         "categorias": [
             "Deportes",
             "Más deportes"
         ],
-        "fecha": "2024-07-06 17:57:20.581319"
+        "fecha": "2024-07-10 18:18:38.869388"
+    },
+    {
+        "header": "Sabe cosas",
+        "titulo": "“Uruguay es el único que puede ganar a Argentina”, dijo Agüero y fue criticado en Colombia",
+        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202407/_W640_H364_80/887562.jpg",
+        "web": "Montevideo Portal",
+        "texto": "",
+        "categorias": [
+            "Deportes",
+            "Copa América 2024"
+        ],
+        "fecha": "2024-07-10 18:18:38.869388"
     },
     {
         "header": "Receta del día",
-        "titulo": "Garrapiñada de almendras: un snack saludable y nutritivo para preparar con los más pequeños",
-        "img": "https://imagenes.montevideo.com.uy/imgnoticias/201204/_W640_H364_80/359867.jpg",
+        "titulo": "Caldo casero de verduras: para tomar solo o incorporar a otras recetas",
+        "img": "https://imagenes.montevideo.com.uy/imgnoticias/201103/_W640_H364_80/317903.jpg",
         "web": "Montevideo Portal",
         "texto": "",
         "categorias": [
             "Deportes",
-            "Más deportes"
+            "Copa América 2024"
         ],
-        "fecha": "2024-07-06 17:57:20.581319"
+        "fecha": "2024-07-10 18:18:38.869388"
     },
     {
         "header": "Escribe Víctor Villar",
@@ -334,7 +331,7 @@
         "categorias": [
             "Columnistas"
         ],
-        "fecha": "2024-07-06 17:57:20.581319"
+        "fecha": "2024-07-10 18:18:38.869388"
     },
     {
         "header": "Escribe Charles Carrera",
@@ -346,7 +343,7 @@
             "Columnistas",
             "Charles Carrera"
         ],
-        "fecha": "2024-07-06 17:57:20.581319"
+        "fecha": "2024-07-10 18:18:38.869388"
     },
     {
         "header": "Escribe Ana Jerozolimski",
@@ -358,7 +355,7 @@
             "Columnistas",
             "Ana Jerozolimski"
         ],
-        "fecha": "2024-07-06 17:57:20.581319"
+        "fecha": "2024-07-10 18:18:38.869388"
     },
     {
         "header": "Escribe Andrés Cañizález",
@@ -370,144 +367,168 @@
             "Columnistas",
             "Latinoamérica21"
         ],
-        "fecha": "2024-07-06 17:57:20.581319"
+        "fecha": "2024-07-10 18:18:38.869388"
     },
     {
-        "header": "Gracias y bienvenido",
-        "titulo": "Nacional presentó con sentido video a Coates, que tuvo una emotiva despedida del Sporting",
-        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202212/_W640_H364_80/828927.jpg",
+        "header": "Mueve fichas",
+        "titulo": "Copa América: Uruguay con cambio de sistema para medirse con Colombia hoy a las 21 horas",
+        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202310/_W640_H364_80/858717.jpg",
+        "web": "Montevideo Portal",
+        "texto": "",
+        "categorias": [
+            "Deportes",
+            "Copa América 2024"
+        ],
+        "fecha": "2024-07-10 18:18:38.869388"
+    },
+    {
+        "header": "Esperame que voy",
+        "titulo": "Copa América: ¿Contra quién prefieren jugar la final los hinchas argentinos y por qué?",
+        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202311/_W640_H364_80/862836.jpg",
+        "web": "Montevideo Portal",
+        "texto": "",
+        "categorias": [
+            "Deportes",
+            "Copa América 2024"
+        ],
+        "fecha": "2024-07-10 18:18:38.869388"
+    },
+    {
+        "header": "Un poco mucho, ¿no?",
+        "titulo": "El video viral del funcionario de AFA secándole la nuca a Chiqui Tapia en Argentina-Canadá",
+        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202407/_W640_H364_80/887548.jpg",
+        "web": "Montevideo Portal",
+        "texto": "",
+        "categorias": [
+            "Deportes",
+            "Copa América 2024"
+        ],
+        "fecha": "2024-07-10 18:18:38.869388"
+    },
+    {
+        "header": "Con cuidado",
+        "titulo": "Copa América: ¿Qué jugadores de Uruguay están en “capilla” y corren riesgo de suspensión?",
+        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202407/_W640_H364_80/887558.jpg",
+        "web": "Montevideo Portal",
+        "texto": "",
+        "categorias": [
+            "Deportes",
+            "Copa América 2024"
+        ],
+        "fecha": "2024-07-10 18:18:38.869388"
+    },
+    {
+        "header": "A otra cosa",
+        "titulo": "“Que termine de una vez el Intermedio”, dijo Diego Aguirre, que analizó a Facundo Batista",
+        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202407/_W640_H364_80/887508.jpg",
         "web": "Montevideo Portal",
         "texto": "",
         "categorias": [
             "Deportes",
             "Fútbol uruguayo"
         ],
-        "fecha": "2024-07-06 17:57:20.581319"
+        "fecha": "2024-07-10 18:18:38.869388"
     },
     {
-        "header": "Esperando el postre",
-        "titulo": "Intermedio: Boston River derrotó 2-0 a Cerro en el estadio Campeones Olímpicos de Florida",
-        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202407/_W640_H364_80/887131.jpg",
+        "header": "Es con ustedes",
+        "titulo": "Copa América: ¿Dónde juegan los jugadores de Colombia y quiénes son las figuras?",
+        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202407/_W640_H364_80/887555.jpg",
         "web": "Montevideo Portal",
         "texto": "",
         "categorias": [
             "Deportes",
-            "Fútbol uruguayo"
+            "Copa América 2024"
         ],
-        "fecha": "2024-07-06 17:57:20.581319"
+        "fecha": "2024-07-10 18:18:38.869388"
     },
     {
-        "header": "Tiempo de redimirse",
-        "titulo": "Byron Castillo dejó Peñarol y fue presentado en Barcelona, donde jugará con tres uruguayos",
-        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202407/_W640_H364_80/887124.jpg",
+        "header": "Que yo nunca cambiaré",
+        "titulo": "Lamine Yamal: El niño que festeja goles para su barrio y repitió el que le hizo a Francia",
+        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202407/_W640_H364_80/887566.jpg",
         "web": "Montevideo Portal",
         "texto": "",
         "categorias": [
             "Deportes",
             "Fútbol Internacional"
         ],
-        "fecha": "2024-07-06 17:57:20.581319"
+        "fecha": "2024-07-10 18:18:38.869388"
     },
     {
-        "header": "Ellos siguen",
-        "titulo": "Básquet: Olimpia, Capitol y Lagomar ganaron en la continuidad de la décima fecha de la LDA",
-        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202407/_W640_H364_80/887123.jpg",
+        "header": "Números de cracks",
+        "titulo": "Real Madrid anunció que Valverde usará la camiseta 8 y que una de sus joyas heredará la 15",
+        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202407/_W640_H364_80/887546.jpg",
         "web": "Montevideo Portal",
         "texto": "",
         "categorias": [
             "Deportes",
-            "Básquetbol"
+            "Fútbol Internacional"
         ],
-        "fecha": "2024-07-06 17:57:20.581319"
+        "fecha": "2024-07-10 18:18:38.869388"
     },
     {
-        "header": "Campañón",
-        "titulo": "Copa América: Canadá venció a Venezuela por penales y será rival de Argentina en semis",
-        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202407/_W640_H364_80/887117.jpg",
+        "header": "A disfrutarlo",
+        "titulo": "La millonaria oferta que rechazó Barcelona por Lamine Yamal antes de la Eurocopa",
+        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202407/_W640_H364_80/887540.jpg",
         "web": "Montevideo Portal",
         "texto": "",
         "categorias": [
             "Deportes",
-            "Copa América 2024"
+            "Fútbol Internacional"
         ],
-        "fecha": "2024-07-06 17:57:20.581319"
+        "fecha": "2024-07-10 18:18:38.869388"
     },
     {
-        "header": "Falta de atención",
-        "titulo": "Pellistri y los dichos del brasileño Andreas Pereira: “Fue para generar reacciones”",
-        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202407/_W640_H364_80/887106.jpg",
-        "web": "Montevideo Portal",
-        "texto": "",
-        "categorias": [
-            "Deportes",
-            "Copa América 2024"
-        ],
-        "fecha": "2024-07-06 17:57:20.581319"
-    },
-    {
-        "header": "Secreto a voces",
-        "titulo": "Bielsa: Las causas de competitividad del jugador uruguayo que desaconsejan especialistas",
-        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202406/_W640_H364_80/885674.jpg",
-        "web": "Montevideo Portal",
-        "texto": "",
-        "categorias": [
-            "Deportes",
-            "Copa América 2024"
-        ],
-        "fecha": "2024-07-06 17:57:20.581319"
-    },
-    {
-        "header": "Locura celeste",
-        "titulo": "Bielsa: los “riesgos” a tomar ante Brasil, duelo para el que todos están “disponibles”",
-        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202407/_W640_H364_80/887105.jpg",
-        "web": "Montevideo Portal",
-        "texto": "",
-        "categorias": [
-            "Deportes",
-            "Copa América 2024"
-        ],
-        "fecha": "2024-07-06 17:57:20.581319"
-    },
-    {
-        "header": "Anulo mufa",
-        "titulo": "Copa América: “Muchos nos dan por muertos y creen que Uruguay pasará fácil”, dijo Raphinha",
-        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202309/_W640_H364_80/855395.jpg",
-        "web": "Montevideo Portal",
-        "texto": "",
-        "categorias": [
-            "Deportes",
-            "Copa América 2024"
-        ],
-        "fecha": "2024-07-06 17:57:20.581319"
-    },
-    {
-        "header": "Triste",
-        "titulo": "Un hombre de 40 años fue asesinado a tiros en la Unión",
-        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202310/_W640_H364_80/857592.jpg",
-        "web": "Montevideo Portal",
-        "texto": "",
-        "categorias": [
-            "Noticias",
-            "Policiales"
-        ],
-        "fecha": "2024-07-06 17:57:20.581319"
-    },
-    {
-        "header": "Contrarreloj",
-        "titulo": "Grandes donantes cortan el grifo a demócratas para presionar que Biden deje la candidatura",
-        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202402/_W640_H364_80/871254.jpg",
+        "header": "Terrible",
+        "titulo": "A prisión alta ejecutiva de Porsche que mató a su bebé porque “arruinaría su carrera”",
+        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202407/_W640_H364_80/887565.jpg",
         "web": "Montevideo Portal",
         "texto": "",
         "categorias": [
             "Noticias",
             "Internacionales"
         ],
-        "fecha": "2024-07-06 17:57:20.581319"
+        "fecha": "2024-07-10 18:18:38.869388"
     },
     {
-        "header": "Voto a voto",
-        "titulo": "MPP arrasó en el FA: el detalle de cómo le fue en competencia interna de cada departamento",
-        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202402/_W640_H364_80/870881.jpeg",
+        "header": "Agua-ntarse",
+        "titulo": "OSE anunció cortes de agua en la costa canaria desde este jueves: ¿a qué zonas afecta?",
+        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202305/_W640_H364_80/841814.jpg",
+        "web": "Montevideo Portal",
+        "texto": "",
+        "categorias": [
+            "Noticias",
+            "Locales"
+        ],
+        "fecha": "2024-07-10 18:18:38.869388"
+    },
+    {
+        "header": "De pocas palabras",
+        "titulo": "“Por favor, calmate”: agredieron a piñas a un funcionario de Aduanas en Cerro Largo",
+        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202407/_W640_H364_80/887559.jpg",
+        "web": "Montevideo Portal",
+        "texto": "",
+        "categorias": [
+            "Noticias",
+            "Policiales"
+        ],
+        "fecha": "2024-07-10 18:18:38.869388"
+    },
+    {
+        "header": "Se termina",
+        "titulo": "La ministra de Economía defendió ante Diputados la última rendición de cuentas del período",
+        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202407/_W640_H364_80/887560.jpeg",
+        "web": "Montevideo Portal",
+        "texto": "",
+        "categorias": [
+            "Noticias",
+            "Política"
+        ],
+        "fecha": "2024-07-10 18:18:38.869388"
+    },
+    {
+        "header": "País pintado",
+        "titulo": "Departamento a departamento: la caída de los blancos y el repunte del FA respecto a 2019",
+        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202407/_W640_H364_80/887397.jpg",
         "web": "Montevideo Portal",
         "texto": "",
         "categorias": [
@@ -515,65 +536,42 @@
             "Política",
             "Elecciones 2024"
         ],
-        "fecha": "2024-07-06 17:57:20.581319"
+        "fecha": "2024-07-10 18:18:38.869388"
     },
     {
-        "header": "Cuidado con el animal",
-        "titulo": "Las enfermedades zoonóticas representan un desafío sanitario y económico global",
-        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202407/_W640_H364_80/887127.jpg",
+        "header": "Grave",
+        "titulo": "La muerte de David tras un traslado fallido: una polémica más sobre el Hospital del Cerro",
+        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202311/_W640_H364_80/861242.jpg",
         "web": "Montevideo Portal",
         "texto": "",
         "categorias": [
-            "Salud",
-            "Salud"
+            "Noticias",
+            "Judiciales"
         ],
-        "fecha": "2024-07-06 17:57:20.581319"
+        "fecha": "2024-07-10 18:18:38.869388"
     },
     {
-        "header": "Minutos de pánico",
-        "titulo": "“El piloto quería seguir”: el testimonio de dos pasajeros del caótico vuelo de Air Europa",
-        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202407/_W640_H364_80/886940.jpg",
+        "header": "Más de 3 millones",
+        "titulo": "Escocés irrumpió en TV argentina y les recordó cuántas Copas del Mundo tiene Uruguay",
+        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202407/_W640_H364_80/887483.jpg",
+        "web": "Montevideo Portal",
+        "texto": "",
+        "categorias": [
+            "Deportes",
+            "Fútbol Internacional"
+        ],
+        "fecha": "2024-07-10 18:18:38.869388"
+    },
+    {
+        "header": "Maravilla natural",
+        "titulo": "Temporada de ballenas: el video que captó francas australes en La Paloma y La Pedrera",
+        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202407/_W640_H364_80/887497.jpg",
         "web": "Montevideo Portal",
         "texto": "",
         "categorias": [
             "Noticias",
             "Locales"
         ],
-        "fecha": "2024-07-06 17:57:20.581319"
-    },
-    {
-        "header": "Julio viene con frío",
-        "titulo": "Metsul emitió un pronóstico para Uruguay y anunció “tres olas polares” consecutivas",
-        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202407/_W640_H364_80/887009.jpg",
-        "web": "Montevideo Portal",
-        "texto": "",
-        "categorias": [
-            "Noticias",
-            "Locales"
-        ],
-        "fecha": "2024-07-06 17:57:20.581319"
-    },
-    {
-        "header": "Vale oro",
-        "titulo": "Se estrena “La vuelta”, la obra sobre una hazaña histórica que une teatro y fútbol",
-        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202407/_W640_H364_80/886941.jpg",
-        "web": "Montevideo Portal",
-        "texto": "",
-        "categorias": [
-            "Tiempo libre",
-            "Cultura"
-        ],
-        "fecha": "2024-07-06 17:57:20.581319"
-    },
-    {
-        "header": "Nacimiento del Uruguay moderno (11)",
-        "titulo": "Las primeras monedas y el masón que mandó el Imperio",
-        "img": "https://imagenes.montevideo.com.uy/imgnoticias/202407/_W640_H364_80/886913.JPG",
-        "web": "Montevideo Portal",
-        "texto": "",
-        "categorias": [
-            "El nacimiento del Uruguay moderno"
-        ],
-        "fecha": "2024-07-06 17:57:20.581319"
+        "fecha": "2024-07-10 18:18:38.869388"
     }
 ]
