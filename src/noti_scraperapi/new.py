@@ -7,7 +7,7 @@ class New:
         self.text = text
         self.category = category
         self.date = date
-        
+
     def to_json(self):
         return {
             "header": self.header,
@@ -16,5 +16,5 @@ class New:
             "web": self.web,
             "texto": self.text,
             "categorias": self.category,
-            "fecha": self.date
+            "fecha": self.date,
         }

@@ -130,3 +130,9 @@ dmypy.json
 
 # VS Code
 .vscode
+
+#ruff_cache
+.ruff_cache
+
+#Ignore all Jsons
+/*.json
