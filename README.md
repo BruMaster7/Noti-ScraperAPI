@@ -16,17 +16,18 @@ Para clonar y ejecutar este proyecto, sigue los siguientes pasos:
    git clone https://github.com/tu-usuario/Noti-ScraperAPI.git
    cd Noti-ScraperAPI
    ```
-
-2. **Crea un entorno virtual (opcional pero recomendado):**
+2. Instala Rye
+   https://rye.astral.sh/
+   
+2. **Instala las dependencias con Rye:**
 
     ```bash
-    python -m venv env
-    source env/bin/activate  # En Windows usa `env\Scripts\activate`
+    rye sync
     ```
 
-3. **Instala las dependencias:**
+3. **Para correr el scraper en consola:**
 
     ```bash
-    pip install -r requirements.txt
+    rye run xataka/montevideo_portal
     ```
 
