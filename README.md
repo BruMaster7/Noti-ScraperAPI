@@ -7,7 +7,7 @@ Noti-ScraperAPI es una herramienta de scraping desarrollada en Python que extrae
 
 
 ## Instalación
-
+Instalar Rye: https://rye.astral.sh/
 Para clonar y ejecutar este proyecto, sigue los siguientes pasos:
 
 1. **Clona el repositorio:**
@@ -16,8 +16,6 @@ Para clonar y ejecutar este proyecto, sigue los siguientes pasos:
    git clone https://github.com/tu-usuario/Noti-ScraperAPI.git
    cd Noti-ScraperAPI
    ```
-2. Instala Rye
-   https://rye.astral.sh/
    
 2. **Instala las dependencias con Rye:**
 
