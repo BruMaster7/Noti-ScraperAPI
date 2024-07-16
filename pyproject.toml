@@ -29,3 +29,4 @@ packages = ["src/noti_scraperapi"]
 [project.scripts]
 xataka = 'noti_scraperapi.scrapers:run_xataka_scraper'
 montevideo_portal = 'noti_scraperapi.scrapers:run_montevideo_portal_scraper'
+el_pais = 'noti_scraperapi.scrapers:run_el_pais_scraper'
