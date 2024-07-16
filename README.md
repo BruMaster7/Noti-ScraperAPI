@@ -27,6 +27,6 @@ Para clonar y ejecutar este proyecto, sigue los siguientes pasos:
 3. **Para correr el scraper en consola:**
 
     ```bash
-    rye run xataka/montevideo_portal
+    rye run xataka/montevideo_portal/el_pais
     ```
 
