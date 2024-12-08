@@ -8,6 +8,8 @@ authors = [
 dependencies = [
     "requests>=2.32.3",
     "beautifulsoup4>=4.12.3",
+    "pymongo>=4.10.1",
+    "python-decouple>=3.8",
 ]
 readme = "README.md"
 requires-python = ">= 3.8"
@@ -30,3 +32,4 @@ packages = ["src/noti_scraperapi"]
 xataka = 'noti_scraperapi.scrapers:run_xataka_scraper'
 montevideo_portal = 'noti_scraperapi.scrapers:run_montevideo_portal_scraper'
 el_pais = 'noti_scraperapi.scrapers:run_el_pais_scraper'
+

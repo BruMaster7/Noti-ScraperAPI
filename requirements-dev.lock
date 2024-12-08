@@ -16,8 +16,14 @@ certifi==2024.7.4
     # via requests
 charset-normalizer==3.3.2
     # via requests
+dnspython==2.7.0
+    # via pymongo
 idna==3.7
     # via requests
+pymongo==4.10.1
+    # via noti-scraperapi
+python-decouple==3.8
+    # via noti-scraperapi
 requests==2.32.3
     # via noti-scraperapi
 soupsieve==2.5

@@ -140,3 +140,6 @@ dmypy.json
 
 # No ignore results folder
 !results/
+
+#Ignore .env file
+/.env
