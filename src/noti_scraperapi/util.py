@@ -1,4 +1,5 @@
 import json
+import os
 from datetime import datetime
 from typing import Iterable, NamedTuple
 
@@ -27,7 +28,14 @@ def fetch_articles(url, html_tag, class_name) -> Iterable[BeautifulSoup]:
 
 
 def save_file(filename, news):
-    with open((f"{filename}.json"), "w") as f:
+    results_dir = "results"
+
+    if not os.path.exists(results_dir):
+        os.makedirs(results_dir)
+
+    file_path = os.path.join(results_dir, f"{filename}.json")
+
+    with open(file_path, "w") as f:
         json.dump([n.to_json() for n in news], f, ensure_ascii=False, indent=4)
     print("JSON realizado con exito")
 
