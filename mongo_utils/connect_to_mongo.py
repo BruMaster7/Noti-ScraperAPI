@@ -25,6 +25,10 @@ class MongoDBHandler:
         except PyMongoError as e:
             print(f"MongoDB connection error: {e}")
             raise
+    def clear_collection(self):
+        #Delete all documents from the collection.
+        result = self.collection.delete_many({})
+        print(f"Deleted {result.deleted_count} documents from the collection.")
 
     def insert_data(self, data):
         try:
@@ -95,6 +99,9 @@ def main():
     # Initialize handlers
     mongo_handler = MongoDBHandler(uri, database_name, collection_name)
     mongo_handler.connect()
+    
+    # Clear the collection before inserting new data add: 
+    # mongo_handler.clear_collection()
 
     project_root = Path(__file__).resolve().parent.parent  # Go up 2 levels
     results_folder = project_root / "results"

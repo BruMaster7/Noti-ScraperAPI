@@ -35,7 +35,7 @@ def save_file(filename, news):
 
     file_path = os.path.join(results_dir, f"{filename}.json")
 
-    with open(file_path, "w") as f:
+    with open(file_path, "w", encoding="utf-8") as f:
         json.dump([n.to_json() for n in news], f, ensure_ascii=False, indent=4)
     print("JSON realizado con exito")
 
