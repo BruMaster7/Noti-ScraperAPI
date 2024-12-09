@@ -1,18 +1,11 @@
 import os
 import json
-import hashlib
 
 from decouple import config
 from pathlib import Path
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
 from pymongo.errors import PyMongoError
-
-
-def generate_unique_id(header, fecha):
-    # Generate a unique identifier based on header and fecha.
-    unique_string = f"{header}{fecha}"
-    return hashlib.md5(unique_string.encode("utf-8")).hexdigest()
 
 
 class MongoDBHandler:
@@ -110,6 +103,7 @@ def main():
     json_processor.process_files(mongo_handler)
 
     print("All data successfully processed and inserted into MongoDB.")
-    
+
+
 if __name__ == "__main__":
     main()
