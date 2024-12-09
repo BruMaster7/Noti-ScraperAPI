@@ -101,7 +101,7 @@ def main():
     mongo_handler.connect()
     
     # Clear the collection before inserting new data add: 
-    # mongo_handler.clear_collection()
+    #mongo_handler.clear_collection()
 
     project_root = Path(__file__).resolve().parent.parent  # Go up 2 levels
     results_folder = project_root / "results"
