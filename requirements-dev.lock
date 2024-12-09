@@ -12,14 +12,28 @@
 -e file:.
 beautifulsoup4==4.12.3
     # via noti-scraperapi
+black==24.10.0
+    # via noti-scraperapi
 certifi==2024.7.4
     # via requests
 charset-normalizer==3.3.2
     # via requests
+click==8.1.7
+    # via black
+colorama==0.4.6
+    # via click
 dnspython==2.7.0
     # via pymongo
 idna==3.7
     # via requests
+mypy-extensions==1.0.0
+    # via black
+packaging==24.2
+    # via black
+pathspec==0.12.1
+    # via black
+platformdirs==4.3.6
+    # via black
 pymongo==4.10.1
     # via noti-scraperapi
 python-decouple==3.8
