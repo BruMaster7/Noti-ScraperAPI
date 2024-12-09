@@ -30,7 +30,7 @@ Para clonar y ejecutar este proyecto, sigue los siguientes pasos:
     rye run xataka/montevideo_portal/el_pais
     ```
 4. **Para correr añadir tus JSONS a una Mongo DB**
-       ```bash
-    rye run connect_to_mongo
-    ```
+   ```bash
+   rye run connect_to_mongo
+   ```
 
