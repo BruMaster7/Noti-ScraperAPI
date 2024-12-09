@@ -81,7 +81,7 @@ class JSONProcessor:
 
     def _process_file(self, file_path, mongo_handler):
         try:
-            with open(file_path, "r", encoding="utf-8", errors="ignore") as file:
+            with open(file_path, "r", encoding="utf-8", errors="replace") as file:
                 data = json.load(file)
                 mongo_handler.insert_data(data)
         except json.JSONDecodeError as e:
