@@ -19,7 +19,7 @@ def main():
     mongo_handler.clear_collection()
 
     project_root = Path(__file__).resolve().parent.parent  # Go up 2 levels
-    results_folder = project_root / "results"
+    results_folder = project_root / "data"
 
     json_processor = JSONProcessor(results_folder)
     json_processor.process_files(mongo_handler)

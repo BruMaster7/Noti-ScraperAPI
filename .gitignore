@@ -138,8 +138,8 @@ dmypy.json
 /*.json
 
 
-# No ignore results folder
-!results/
+# No ignore data folder
+!data/
 
 #Ignore .env file
 /.env
