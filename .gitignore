@@ -136,6 +136,7 @@ dmypy.json
 
 #Ignore all Jsons
 /*.json
+data/*.json
 
 
 # No ignore data folder
