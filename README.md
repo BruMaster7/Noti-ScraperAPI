@@ -119,9 +119,8 @@ noti_scraperapi/
 
 **Run the scraper in console:**
 
-    ```bash
     rye run xataka/montevideo_portal/el_pais
-    ```
+    
 
 ### MongoDB Integration
 
