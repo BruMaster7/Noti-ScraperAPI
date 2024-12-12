@@ -28,7 +28,7 @@ def fetch_articles(url, html_tag, class_name) -> Iterable[BeautifulSoup]:
 
 
 def save_file(filename, news):
-    results_dir = "results"
+    results_dir = "data"
 
     if not os.path.exists(results_dir):
         os.makedirs(results_dir)

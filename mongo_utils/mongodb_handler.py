@@ -36,7 +36,7 @@ class MongoDBHandler:
             if isinstance(data, list):
                 for item in data:
                     existing = self.collection.find_one(
-                        {"header": item["header"], "titulo": item["titulo"]}
+                        {"header": item["header"], "title": item["title"]}
                     )
                 if not existing:
                     self.collection.insert_one(item)
@@ -49,7 +49,7 @@ class MongoDBHandler:
 
             elif isinstance(data, dict):
                 existing = self.collection.find_one(
-                    {"header": data["header"], "titulo": data["titulo"]}
+                    {"header": data["header"], "title": data["title"]}
                 )
 
                 if not existing:

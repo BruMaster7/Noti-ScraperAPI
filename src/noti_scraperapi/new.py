@@ -11,10 +11,10 @@ class New:
     def to_json(self):
         return {
             "header": self.header,
-            "titulo": self.title,
+            "title": self.title,
             "img": self.img,
             "web": self.web,
-            "texto": self.text,
-            "categorias": self.category,
-            "fecha": self.date,
+            "text": self.text,
+            "category": self.category,
+            "date": self.date,
         }
