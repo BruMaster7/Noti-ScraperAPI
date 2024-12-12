@@ -81,7 +81,7 @@ noti_scraperapi/
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/username/Noti-ScraperAPI.git
+   git clone https://github.com/BruMaster7/Noti-ScraperAPI.git
    cd noti-scraperapi
    ```
 
