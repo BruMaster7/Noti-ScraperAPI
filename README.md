@@ -8,7 +8,7 @@ Noti-ScraperAPI is a powerful toolchain designed for scraping news from multiple
 
 ### 1. **News Scraper**
 
-- Scrapes news articles from supported websites (using BeuautifulSoup).
+- Scrapes news articles from supported websites (using BeautifulSoup).
 - Modular design with parsers for specific sources (e.g., El País, Montevideo Portal, Xataka).
 - Outputs JSON files containing scraped data.
 
@@ -45,7 +45,7 @@ noti_scraperapi/
 │   │   ├── el_pais.py        # Parser for "El País"
 │   │   ├── montevideo_portal.py # Parser for "Montevideo Portal"
 │   │   ├── xataka.py         # Parser for "Xataka"
-│   ├── new.py                # New article-related functionality
+│   ├── new.py                # New class
 │   ├── scrapers.py           # Main scrapers for fetching articles
 │   ├── util.py               # Utility functions
 ├── .env                      # Environment variables (must be created by the user)
