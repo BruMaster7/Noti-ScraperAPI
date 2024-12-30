@@ -50,7 +50,9 @@ def run_scraper(scraper_settings: ScraperSettings):
         header = scraper_settings.article_parser.get_header(article)
         title = scraper_settings.article_parser.get_title(article)
         img_url = scraper_settings.article_parser.get_img(article)
+        url = scraper_settings.article_parser.get_url(article)
         category_list = scraper_settings.article_parser.get_category(article)
+        date = scraper_settings.article_parser.get_date(article)
         if header and title and img_url and category_list:
             news.append(
                 New(
@@ -58,9 +60,9 @@ def run_scraper(scraper_settings: ScraperSettings):
                     title=title,
                     img=img_url,
                     web=scraper_settings.web_name,
-                    text="",
+                    url=url,
                     category=category_list,
-                    date=DATE,
+                    date=date,
                 )
             )
     save_file(scraper_settings.filename, news)

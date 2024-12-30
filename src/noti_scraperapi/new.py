@@ -1,10 +1,10 @@
 class New:
-    def __init__(self, header, title, img, web, text, category, date):
+    def __init__(self, header, title, img, web, url, category, date):
         self.header = header
         self.title = title
         self.img = img
         self.web = web
-        self.text = text
+        self.url = url
         self.category = category
         self.date = date
 
@@ -14,7 +14,7 @@ class New:
             "title": self.title,
             "img": self.img,
             "web": self.web,
-            "text": self.text,
+            "url": self.url,
             "category": self.category,
-            "date": self.date,
+            "date": self.date
         }

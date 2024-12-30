@@ -1,5 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
+from datetime import datetime
 
 from noti_scraperapi.article_parsers.base import ArticleParser
 
@@ -19,6 +20,11 @@ class MontevideoPortalParser(ArticleParser):
             img_container.find("img", class_="lazyload") if img_container else None
         )
         return img_elem.attrs["data-src"] if img_elem else None
+    
+    def get_url(article) -> str:
+        new_url = article.find("a")
+        return new_url.attrs["href"] if new_url else None
+        
 
     def get_category(article) -> list[str]:
         new_attrs = article.find("a")
@@ -38,3 +44,22 @@ class MontevideoPortalParser(ArticleParser):
             if category_text != "Inicio":  # Excluir "Inicio"
                 category_list.append(category_text)
         return category_list
+    
+    def get_date(article) -> str:
+        new_attrs = article.find("a")
+        if not new_attrs:
+            return
+        second_URL = new_attrs["href"]
+        second_response = requests.get(second_URL)
+        html_URL2 = second_response.content
+        soup2 = BeautifulSoup(html_URL2, "html.parser")
+        date = soup2.find("p", class_="fecha-hora")
+        if date:
+            date_text = date.text.strip()
+            try:
+                formatted_date = datetime.strptime(date_text, "%d.%m.%Y %H:%M")
+                return formatted_date.strftime("%d/%m/%Y")
+            except ValueError:
+                print(f"Formato de fecha inesperado: {date_text}")
+                return None
+        return None

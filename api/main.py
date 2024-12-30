@@ -1,4 +1,5 @@
 from fastapi import FastAPI, Query
+from fastapi.middleware.cors import CORSMiddleware
 from pymongo.collection import Collection
 from typing import Optional
 from decouple import config
@@ -6,6 +7,18 @@ from decouple import config
 from mongo_utils.mongodb_handler import MongoDBHandler
 
 app = FastAPI()
+
+origins = [
+    "http://127.0.0.1:5500", 
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 uri = config("MONGO_URI")
 database_name = config("MONGO_DB")
