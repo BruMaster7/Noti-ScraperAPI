@@ -16,15 +16,15 @@ class XatakaArticleParser(ArticleParser):
         img_container = article.find("picture")
         img_elem = img_container.find("img") if img_container else None
         return img_elem.attrs["src"] if img_elem else None
-    
+
     def get_url(article):
         url_elem = article.find("a")
         return url_elem["href"] if url_elem else None
-    
+
     def get_category(article) -> list[str]:
         category_element = article.find("a", class_="abstract-taxonomy")
         return category_element.get_text() if category_element else None
-    
+
     def get_date(article):
         date_elem = article.find("time")
         if date_elem:

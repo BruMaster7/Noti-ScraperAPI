@@ -1,6 +1,5 @@
 from fastapi import FastAPI, Query
 from fastapi.middleware.cors import CORSMiddleware
-from pymongo.collection import Collection
 from typing import Optional
 from decouple import config
 
@@ -9,7 +8,7 @@ from mongo_utils.mongodb_handler import MongoDBHandler
 app = FastAPI()
 
 origins = [
-    "http://127.0.0.1:5500", 
+    "http://127.0.0.1:5500",
 ]
 
 app.add_middleware(
@@ -24,18 +23,22 @@ uri = config("MONGO_URI")
 database_name = config("MONGO_DB")
 collection_name = config("MONGO_COLLECTION")
 
-#Connect to Mongo
+# Connect to Mongo
 mongo_handler = MongoDBHandler(uri, database_name, collection_name)
 mongo_handler.connect()
+
 
 @app.get("/")
 async def root():
     return {"message": "Welcome to Noti-Scraper API! Use /news to fetch news data."}
 
+
 @app.get("/news")
 async def get_news(
     page: int = Query(1, ge=1),  # Page number (default 1, must be >= 1)
-    page_size: int = Query(10, ge=1, le=100),  # Page size (default 10, between 1 and 100)
+    page_size: int = Query(
+        10, ge=1, le=100
+    ),  # Page size (default 10, between 1 and 100)
     title: Optional[str] = None,  # Filter by title (optional)
     header: Optional[str] = None,  # Filter by header (optional)
     category: Optional[str] = None,  # Filter by category (optional)
@@ -43,18 +46,29 @@ async def get_news(
     try:
         filters = {}
         if title:
-            filters["title"] = {"$regex": title, "$options": "i"}  # Case-insensitive search
+            filters["title"] = {
+                "$regex": title,
+                "$options": "i",
+            }  # Case-insensitive search
         if header:
-            filters["header"] = {"$regex": header, "$options": "i"}  # Case-insensitive search
+            filters["header"] = {
+                "$regex": header,
+                "$options": "i",
+            }  # Case-insensitive search
         if category:
-            filters["category"] = {"$regex": category, "$options": "i"}  # Case-insensitive search
+            filters["category"] = {
+                "$regex": category,
+                "$options": "i",
+            }  # Case-insensitive search
 
         # Pagination calculations
-        skip = (page - 1) * page_size  
-        limit = page_size  
+        skip = (page - 1) * page_size
+        limit = page_size
 
         # Fetch data with filters and pagination
-        news_cursor = mongo_handler.collection.find(filters, {"_id": 0}).skip(skip).limit(limit)
+        news_cursor = (
+            mongo_handler.collection.find(filters, {"_id": 0}).skip(skip).limit(limit)
+        )
         news = list(news_cursor)
 
         # Count the total number of documents matching the filter
@@ -66,7 +80,8 @@ async def get_news(
                 "current_page": page,
                 "page_size": page_size,
                 "total_items": total_count,
-                "total_pages": (total_count + page_size - 1) // page_size,  # Total number of pages
+                "total_pages": (total_count + page_size - 1)
+                // page_size,  # Total number of pages
             },
         }
     except Exception as e:

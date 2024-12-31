@@ -64,7 +64,7 @@ class ElPaisParser(ArticleParser):
             if page_lead_div:
                 img_tag = page_lead_div.find("img", class_="Image")
         return img_tag["src"] if img_tag and "src" in img_tag.attrs else None
-    
+
     def get_url(article) -> str:
         title_h2 = article.find("h2", class_="Promo-title")
         if title_h2:
@@ -84,7 +84,7 @@ class ElPaisParser(ArticleParser):
         if category_div:
             category_a_tag = category_div.find("a", class_="Link")
             return category_a_tag.get_text() if category_a_tag else None
-        
+
     def get_date(article):
         title_h2 = article.find("h2", class_="Promo-title")
         if title_h2:
@@ -102,7 +102,7 @@ class ElPaisParser(ArticleParser):
             article_soup = BeautifulSoup(article_response.content, "html.parser")
             article_date = article_soup.find("div", class_="Page-datePublished")
             cleaned_date_str = ""
-            
+
             if article_date:
                 date_str = article_date.get_text().strip()
                 # Limpiar la cadena de fecha: eliminar cualquier coma inicial y espacios
@@ -110,14 +110,15 @@ class ElPaisParser(ArticleParser):
             try:
                 # Intentar parsear con hora
                 if "," in cleaned_date_str:
-                    formatted_date = datetime.strptime(cleaned_date_str, "%d/%m/%Y, %H:%M")
+                    formatted_date = datetime.strptime(
+                        cleaned_date_str, "%d/%m/%Y, %H:%M"
+                    )
                 else:
                     # Si no tiene hora, intentar solo con la fecha
                     formatted_date = datetime.strptime(cleaned_date_str, "%d/%m/%Y")
-                
+
                 return formatted_date.strftime("%d/%m/%Y")
             except ValueError:
                 print(f"Formato de fecha inesperado: {cleaned_date_str}")
                 return None
         return None
-        

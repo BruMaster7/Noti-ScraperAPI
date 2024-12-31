@@ -16,5 +16,5 @@ class New:
             "web": self.web,
             "url": self.url,
             "category": self.category,
-            "date": self.date
+            "date": self.date,
         }

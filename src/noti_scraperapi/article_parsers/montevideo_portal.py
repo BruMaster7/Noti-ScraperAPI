@@ -20,11 +20,10 @@ class MontevideoPortalParser(ArticleParser):
             img_container.find("img", class_="lazyload") if img_container else None
         )
         return img_elem.attrs["data-src"] if img_elem else None
-    
+
     def get_url(article) -> str:
         new_url = article.find("a")
         return new_url.attrs["href"] if new_url else None
-        
 
     def get_category(article) -> list[str]:
         new_attrs = article.find("a")
@@ -44,7 +43,7 @@ class MontevideoPortalParser(ArticleParser):
             if category_text != "Inicio":  # Excluir "Inicio"
                 category_list.append(category_text)
         return category_list
-    
+
     def get_date(article) -> str:
         new_attrs = article.find("a")
         if not new_attrs:

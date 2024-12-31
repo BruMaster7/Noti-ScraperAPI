@@ -13,7 +13,7 @@ class ArticleParser(ABC):
     @abstractmethod
     def get_img(article, container_tag, img_tag, class_name, attr_url) -> str:
         pass
-    
+
     @abstractmethod
     def get_url(article, url_tag, url_class) -> str:
         pass
@@ -21,7 +21,7 @@ class ArticleParser(ABC):
     @abstractmethod
     def get_category(article, category_tag, category_class) -> list[str]:
         pass
-    
+
     @abstractmethod
     def get_date(article, date_tag, date_class) -> str:
         pass
