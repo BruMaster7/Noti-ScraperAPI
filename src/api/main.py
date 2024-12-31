@@ -2,7 +2,9 @@ from fastapi import FastAPI, Query
 from fastapi.middleware.cors import CORSMiddleware
 from typing import Optional
 from decouple import config
+from threading import Thread
 
+from api.cron_tasks import run_scheduler, schedule_tasks
 from mongo_utils.mongodb_handler import MongoDBHandler
 
 app = FastAPI()
@@ -27,6 +29,19 @@ collection_name = config("MONGO_COLLECTION")
 mongo_handler = MongoDBHandler(uri, database_name, collection_name)
 mongo_handler.connect()
 
+def start_cron():
+    schedule_tasks()
+    run_scheduler()
+
+@app.on_event("startup")
+def startup_event():
+    cron_thread = Thread(target=start_cron, daemon=True)
+    cron_thread.start()
+    print("Cron running in the background")
+
+@app.on_event("shutdown")
+async def shutdown_event():
+    print("Closing the application, cron finished")
 
 @app.get("/")
 async def root():
