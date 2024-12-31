@@ -1,3 +1,4 @@
+from datetime import datetime
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
 from pymongo.errors import PyMongoError
@@ -28,30 +29,28 @@ class MongoDBHandler:
 
     def insert_data(self, data):
         try:
-            # Validate the type of data
             if not isinstance(data, (list, dict)):
                 raise ValueError("Data must be a list or a dictionary.")
 
-            # Insert data based on its type
             if isinstance(data, list):
                 for item in data:
+                    if "date" in item:
+                        item["date"] = self._convert_to_date(item["date"])
                     existing = self.collection.find_one(
                         {"header": item["header"], "title": item["title"]}
                     )
-                if not existing:
-                    self.collection.insert_one(item)
-                    print(f"Inserted: {item['header']}")
-                else:
-                    print(f"Duplicate found, skipped: {item['header']}")
-
-                result = self.collection.insert_many(data)
-                print(f"Inserted {len(result.inserted_ids)} items into the collection.")
+                    if not existing:
+                        self.collection.insert_one(item)
+                        print(f"Inserted: {item['header']}")
+                    else:
+                        print(f"Duplicate found, skipped: {item['header']}")
 
             elif isinstance(data, dict):
+                if "date" in data:
+                    data["date"] = self._convert_to_date(data["date"])
                 existing = self.collection.find_one(
                     {"header": data["header"], "title": data["title"]}
                 )
-
                 if not existing:
                     self.collection.insert_one(data)
                     print(f"Inserted: {data['header']}")
@@ -61,3 +60,10 @@ class MongoDBHandler:
                 print("Data format is not supported for insertion.")
         except Exception as e:
             print(f"Error inserting data into MongoDB: {e}")
+            
+    def _convert_to_date(self, date_str):
+        try:
+            return datetime.strptime(date_str, "%d/%m/%Y %H:%M")
+        except ValueError as e:
+            print(f"Error converting date: {date_str}, {e}")
+            return None 

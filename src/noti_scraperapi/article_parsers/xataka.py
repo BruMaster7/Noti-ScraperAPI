@@ -31,7 +31,7 @@ class XatakaArticleParser(ArticleParser):
             try:
                 date = date_elem["datetime"]
                 date_formatted = datetime.strptime(date, "%Y-%m-%dT%H:%M:%SZ")
-                return date_formatted.strftime("%d/%m/%Y")
+                return date_formatted.strftime("%d/%m/%Y %H:%M")
             except ValueError:
                 print(f"Formato de fecha inesperado: {date}")
                 return None

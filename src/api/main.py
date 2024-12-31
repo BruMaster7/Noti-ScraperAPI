@@ -42,6 +42,7 @@ async def get_news(
     title: Optional[str] = None,  # Filter by title (optional)
     header: Optional[str] = None,  # Filter by header (optional)
     category: Optional[str] = None,  # Filter by category (optional)
+    sort_order: str = Query("desc", regex="^(asc|desc)$"),  # Sorting order: asc/desc
 ):
     try:
         filters = {}
@@ -65,9 +66,17 @@ async def get_news(
         skip = (page - 1) * page_size
         limit = page_size
 
+         # Sorting order based on sort_order parameter
+        sort_direction = -1 if sort_order == "desc" else 1
+
+        
         # Fetch data with filters and pagination
         news_cursor = (
-            mongo_handler.collection.find(filters, {"_id": 0}).skip(skip).limit(limit)
+            mongo_handler.collection
+            .find(filters, {"_id": 0})
+            .sort("date", sort_direction)
+            .skip(skip)
+            .limit(limit)
         )
         news = list(news_cursor)
 

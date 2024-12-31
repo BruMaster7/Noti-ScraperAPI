@@ -57,7 +57,7 @@ class MontevideoPortalParser(ArticleParser):
             date_text = date.text.strip()
             try:
                 formatted_date = datetime.strptime(date_text, "%d.%m.%Y %H:%M")
-                return formatted_date.strftime("%d/%m/%Y")
+                return formatted_date.strftime("%d/%m/%Y %H:%M")
             except ValueError:
                 print(f"Formato de fecha inesperado: {date_text}")
                 return None

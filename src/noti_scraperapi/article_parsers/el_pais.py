@@ -117,7 +117,7 @@ class ElPaisParser(ArticleParser):
                     # Si no tiene hora, intentar solo con la fecha
                     formatted_date = datetime.strptime(cleaned_date_str, "%d/%m/%Y")
 
-                return formatted_date.strftime("%d/%m/%Y")
+                return formatted_date.strftime("%d/%m/%Y %H:%M")
             except ValueError:
                 print(f"Formato de fecha inesperado: {cleaned_date_str}")
                 return None
