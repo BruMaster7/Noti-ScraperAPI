@@ -124,7 +124,7 @@ noti_scraperapi/
 
 ### MongoDB Integration
 
-- Use `mongo_utils/mongodb_handler.py` to insert scraped data into MongoDB Atlas.
+- Use `src/mongo_utils/mongodb_handler.py` to insert scraped data into MongoDB Atlas.
 
 **Add the JSONS to a MongoDB with:**
    ```bash
