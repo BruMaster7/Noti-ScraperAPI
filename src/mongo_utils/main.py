@@ -18,7 +18,7 @@ def main():
     # For clear the collection before inserting new data add:
     mongo_handler.clear_collection()
 
-    project_root = Path(__file__).resolve().parent.parent  # Go up 2 levels
+    project_root = Path(__file__).resolve().parent.parent.parent  # Go up 3 levels
     results_folder = project_root / "data"
 
     json_processor = JSONProcessor(results_folder)

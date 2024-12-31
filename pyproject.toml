@@ -37,7 +37,7 @@ montevideo_portal = 'noti_scraperapi.scrapers:run_montevideo_portal_scraper'
 el_pais = 'noti_scraperapi.scrapers:run_el_pais_scraper'
 
 [tool.rye.scripts]
-connect_to_mongo = "python mongo_utils/main.py"
+connect_to_mongo = "python src/mongo_utils/main.py"
 
 
 
