@@ -23,6 +23,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [tool.rye]
+virtual = true
 managed = true
 dev-dependencies = []
 

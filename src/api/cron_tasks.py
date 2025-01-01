@@ -3,19 +3,19 @@ import schedule
 import time
 
 def run_el_pais():
-    os.system("rye run el_pais")
+    os.system("python -m noti_scraperapi.scrapers run_el_pais_scraper")
     print("Ejecutado el scraper: El Pais")
 
 def run_montevideo_portal():
-    os.system("rye run montevideo_portal")
+    os.system("python -m noti_scraperapi.scrapers run_montevideo_portal_scraper")
     print("Ejecutado el scraper: Montevideo Portal")
 
 def run_xataka():
-    os.system("rye run xataka")
+    os.system("python -m noti_scraperapi.scrapers run_xataka_scraper")
     print("Ejecutado el scraper: Xataka")
 
 def connect_to_mongo():
-    os.system("rye run connect_to_mongo")
+    os.system("python src/mongo_utils/main.py")
     print("Conectado a MongoDB y datos actualizados")
 
 def schedule_tasks():

@@ -9,15 +9,12 @@
 #   generate-hashes: false
 #   universal: false
 
--e file:.
 annotated-types==0.7.0
     # via pydantic
 anyio==4.7.0
     # via starlette
 beautifulsoup4==4.12.3
-    # via noti-scraperapi
 black==24.10.0
-    # via noti-scraperapi
 certifi==2024.7.4
     # via requests
 charset-normalizer==3.3.2
@@ -30,7 +27,6 @@ colorama==0.4.6
 dnspython==2.7.0
     # via pymongo
 fastapi==0.115.6
-    # via noti-scraperapi
 h11==0.14.0
     # via uvicorn
 idna==3.7
@@ -49,13 +45,9 @@ pydantic==2.10.3
 pydantic-core==2.27.1
     # via pydantic
 pymongo==4.10.1
-    # via noti-scraperapi
 python-decouple==3.8
-    # via noti-scraperapi
 requests==2.32.3
-    # via noti-scraperapi
 schedule==1.2.2
-    # via noti-scraperapi
 sniffio==1.3.1
     # via anyio
 soupsieve==2.5
@@ -70,4 +62,3 @@ typing-extensions==4.12.2
 urllib3==2.2.2
     # via requests
 uvicorn==0.32.1
-    # via noti-scraperapi
