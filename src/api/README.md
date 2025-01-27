@@ -107,6 +107,7 @@ curl "http://127.0.0.1:8000/news?page=1&page_size=5&title=technology"
 noti_scraperapi/
 ├── api/
 │   ├── main.py               # Main FastAPI application for the REST API
+│   ├── cron_tasks.py         # cron tasks for the REST API
 │   ├── README.md             # Documentation for the API
 ├── data/
 │   ├── .gitkeep              # Placeholder to ensure the folder exists in version control
