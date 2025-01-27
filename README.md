@@ -31,6 +31,7 @@ Noti-ScraperAPI is a powerful toolchain designed for scraping news from multiple
 noti_scraperapi/
 ├── api/
 │   ├── main.py               # Main FastAPI application for the REST API
+│   ├── cron_tasks.py         # Cron tasks for the REST API
 │   ├── README.md             # Documentation for the REST API
 ├── data/
 │   ├── .gitkeep              # Placeholder to track the folder
