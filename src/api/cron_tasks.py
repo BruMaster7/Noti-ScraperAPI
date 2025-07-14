@@ -22,14 +22,14 @@ def connect_to_mongo():
     print("Conectado a MongoDB y datos actualizados")
 
 def schedule_tasks():
-    schedule.every(30).minutes.do(run_el_pais)
-    schedule.every(30).minutes.do(run_montevideo_portal)
-    schedule.every(30).minutes.do(run_xataka)
-    schedule.every(30).minutes.do(connect_to_mongo)
+    # schedule.every(30).minutes.do(run_el_pais)
+    # schedule.every(30).minutes.do(run_montevideo_portal)
+    # schedule.every(30).minutes.do(run_xataka)
+    # schedule.every(30).minutes.do(connect_to_mongo)
 
     print("Tasks scheduled to run every 30 minutes.")
 
 def run_scheduler():
     while True:
         schedule.run_pending()
-        time.sleep(1)
+        time.sleep(2)
