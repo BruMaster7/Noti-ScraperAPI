@@ -19,7 +19,7 @@ def connect_to_mongo():
     print("Conectado a MongoDB y datos actualizados")
 
 def schedule_tasks():
-    schedule.every(1).hours.do(run_el_pais)  # Ejecuta cada 6 horas
+    schedule.every(1).hours.do(run_el_pais)
     schedule.every(1).hours.do(run_montevideo_portal)
     schedule.every(1).hours.do(run_xataka)
     schedule.every(1).hours.do(connect_to_mongo)
