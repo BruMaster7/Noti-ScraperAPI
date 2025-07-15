@@ -16,10 +16,14 @@ class MontevideoPortalParser(ArticleParser):
 
     def get_img(article) -> str:
         img_container = article.find("picture")
-        img_elem = (
-            img_container.find("img", class_="lazyload") if img_container else None
-        )
-        return img_elem.attrs["data-src"] if img_elem else None
+        if not img_container:
+            return None
+
+        img_elem = img_container.find("img")
+        if not img_elem:
+            return None
+
+        return img_elem.get("src")
 
     def get_url(article) -> str:
         new_url = article.find("a")

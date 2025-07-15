@@ -53,6 +53,7 @@ def run_scraper(scraper_settings: ScraperSettings):
         url = scraper_settings.article_parser.get_url(article)
         category_list = scraper_settings.article_parser.get_category(article)
         date = scraper_settings.article_parser.get_date(article)
+        print(f"[DEBUG] Artículo analizado: título={title}, url={url}, img={img_url}, date={date}, categoría={category_list}")
         if header and title and img_url and category_list:
             news.append(
                 New(

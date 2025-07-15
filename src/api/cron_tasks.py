@@ -13,7 +13,7 @@ def run_montevideo_portal():
     print("Ejecutado el scraper: Montevideo Portal")
 
 def run_xataka():
-    print("Ejecutando el scraper: Montevideo Portal")
+    print("Ejecutando el scraper: Xataka")
     os.system('python -c "from noti_scraperapi.scrapers import run_xataka_scraper; run_xataka_scraper()"')
     print("Ejecutado el scraper: Xataka")
 
