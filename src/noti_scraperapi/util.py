@@ -46,24 +46,30 @@ def run_scraper(scraper_settings: ScraperSettings):
         scraper_settings.url, scraper_settings.html_tag, scraper_settings.class_name
     )
     news = []
-    for article in articles:
-        header = scraper_settings.article_parser.get_header(article)
-        title = scraper_settings.article_parser.get_title(article)
-        img_url = scraper_settings.article_parser.get_img(article)
-        url = scraper_settings.article_parser.get_url(article)
-        category_list = scraper_settings.article_parser.get_category(article)
-        date = scraper_settings.article_parser.get_date(article)
-        print(f"[DEBUG] Artículo analizado: título={title}, url={url}, img={img_url}, date={date}, categoría={category_list}")
-        if header and title and img_url and category_list:
-            news.append(
-                New(
-                    header=header,
-                    title=title,
-                    img=img_url,
-                    web=scraper_settings.web_name,
-                    url=url,
-                    category=category_list,
-                    date=date,
+    try:
+        for article in articles:
+            header = scraper_settings.article_parser.get_header(article)
+            title = scraper_settings.article_parser.get_title(article)
+            img_url = scraper_settings.article_parser.get_img(article)
+            url = scraper_settings.article_parser.get_url(article)
+            category_list = scraper_settings.article_parser.get_category(article)
+            date = scraper_settings.article_parser.get_date(article)
+            print(f"[DEBUG] Artículo analizado: título={title}, url={url}, img={img_url}, date={date}, categoría={category_list}")
+            if header and title and img_url and category_list:
+                news.append(
+                    New(
+                        header=header,
+                        title=title,
+                        img=img_url,
+                        web=scraper_settings.web_name,
+                        url=url,
+                        category=category_list,
+                        date=date,
+                    )
                 )
-            )
+    except Exception as e:
+        print(f"Error durante el scrapeo: {e}")
+        save_file(scraper_settings.filename, news)
+        raise e
+
     save_file(scraper_settings.filename, news)

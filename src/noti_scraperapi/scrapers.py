@@ -23,7 +23,7 @@ SCRAPERS = {
     "El Pais": ScraperSettings(
         url="https://www.elpais.com.uy/",
         html_tag="div",
-        class_name="PromoBasic-content",
+        class_name="PromoFlex",
         article_parser=ElPaisParser,
         filename="el_pais",
         web_name="El Pais",
