@@ -63,7 +63,7 @@ noti_scraperapi/
 ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=for-the-badge)
 ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?logo=fastapi&logoColor=white&style=for-the-badge)
 ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?logo=mongodb&logoColor=white&style=for-the-badge)
-![Rye](https://img.shields.io/badge/-Rye-FAB040?logo=python&logoColor=white&style=for-the-badge)
+![uv](https://img.shields.io/badge/-uv-DE5D43?logo=python&logoColor=white&style=for-the-badge)
 
 </div>
 
@@ -73,9 +73,9 @@ noti_scraperapi/
 
 ### Prerequisites
 
-- **Python 3.10+**
+- **Python 3.10+** (managed by uv)
 - **MongoDB Atlas** account
-- **Rye** (for Python project management)
+- **uv** (for Python project management)
 
 ### Steps
 
@@ -97,13 +97,13 @@ noti_scraperapi/
 3. Install dependencies:
 
    ```bash
-   rye sync
+   uv sync
    ```
 
 4. Run the API:
 
    ```bash
-   rye run uvicorn api.main:app --reload
+   uv run uvicorn api.main:app --reload
    ```
 
 5. Access the API documentation at:
@@ -120,7 +120,7 @@ noti_scraperapi/
 
 **Run the scraper in console:**
 
-    rye run xataka/montevideo_portal/el_pais
+    uv run xataka/montevideo_portal/el_pais
     
 
 ### MongoDB Integration
@@ -129,7 +129,7 @@ noti_scraperapi/
 
 **Add the JSONS to a MongoDB with:**
    ```bash
-   rye run connect_to_mongo
+   uv run connect_to_mongo
    ```
 
 ### API Endpoints

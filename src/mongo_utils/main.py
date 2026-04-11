@@ -1,8 +1,8 @@
 from decouple import config
 from pathlib import Path
 
-from mongodb_handler import MongoDBHandler
-from json_processor import JSONProcessor
+from .mongodb_handler import MongoDBHandler
+from .json_processor import JSONProcessor
 
 
 def main():

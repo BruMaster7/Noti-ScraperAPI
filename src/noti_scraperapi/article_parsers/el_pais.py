@@ -19,6 +19,7 @@ class ElPaisParser(ArticleParser):
         else:
             href = None
 
+        article_header = None
         if href:
             # Obtener el contenido de la página web del artículo
             article_response = requests.get(href)
@@ -38,6 +39,7 @@ class ElPaisParser(ArticleParser):
         else:
             href = None
 
+        article_title = None
         if href:
             article_response = requests.get(href)
             article_soup = BeautifulSoup(article_response.content, "html.parser")
@@ -56,10 +58,10 @@ class ElPaisParser(ArticleParser):
         else:
             href = None
 
+        img_tag = None
         if href:
             article_response = requests.get(href)
             article_soup = BeautifulSoup(article_response.content, "html.parser")
-            img_tag = None
             page_lead_div = article_soup.find("div", class_="Page-lead")
             if page_lead_div:
                 img_tag = page_lead_div.find("img", class_="Image")
@@ -97,6 +99,7 @@ class ElPaisParser(ArticleParser):
         else:
             href = None
 
+        article_date = None
         if href:
             article_response = requests.get(href)
             article_soup = BeautifulSoup(article_response.content, "html.parser")
